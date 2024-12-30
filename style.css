@@ -179,6 +179,16 @@ h4{
    
     font-size: 12px;
   }
+  .sign-container{
+    width: auto;
+    height: 300px;
+    background-color: #CFBAFF;
+  }
+
+  .offer-img{
+    width: 40px;
+    height: 40px;
+  }
   
   .offer-btn {
     background-color: #000;
@@ -192,5 +202,23 @@ h4{
   
   .offer-btn:hover {
     background-color: #444;
+  }
+  
+  .sign-foo{
+    text-align: center;
+   
+    font-size: 30px;
+    font-weight: 500;
+    padding: 90px;
+  }
+  .sign-btn{
+    margin-top: 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 14px;
   }
   
