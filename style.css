@@ -16,6 +16,11 @@
     border-bottom: 1px solid black;
     background-color: #fffcfc;
 }
+.navbar-img{
+   
+    background-size: contain;
+    width: 1259px;
+}
 li{padding: 10px;
     display: inline;
     
@@ -94,7 +99,7 @@ li{padding: 10px;
     border: none;
 }
 .buy-container{
-    width: 101%;
+    width: 100%;
     height: 300px;
     background-color: rgb(244, 197, 77);
     position: relative;
@@ -243,4 +248,91 @@ font-size: 12px;
 padding: 20px;
   }
  
-  
+  .inline-blog{
+display: inline-block;
+  }
+
+  @media screen and (max-width:676px) {
+    .navbar{margin-left: 210px;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    display: flex;
+    gap: 70px;
+    flex-direction: row;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 80px;
+        width: 100%;
+        border-bottom: 1px solid black;
+        background-color: #fffcfc;
+    }
+    .image-container {
+        position: relative;
+        width: 800px;
+    }
+    .inline-blog{
+        display: none;
+          }
+          .navbar-img{
+            width: 100%;
+            height: auto;
+        }
+        .input-box {padding: 90px;
+            position: absolute;
+           background-color: white;
+           height: 220px;
+           width: 667px;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px; 
+            top: 50%; 
+            left: 20%; 
+            transform: translateY(-50%);
+        }
+        .h2{
+            margin-top: -160px;
+            margin-left: -300px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .buy-container{
+            width: 1200px;
+            height: 300px;
+            background-color: rgb(244, 197, 77);
+            position: relative;
+        }
+        .find{
+            padding: 10px;
+            width: 100px;
+            background-color: aqua;
+            border-radius: 10px;
+            font-weight: 600;
+            border: none;
+        }
+        .paid{
+            margin-left: -90px;
+             background-color: rgb(219, 218, 218);
+             position: relative;
+         }
+         .input-box {padding: 160px;
+    position: absolute;
+   background-color: white;
+   height: 350px;
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px; 
+    top: 50%; 
+    left: 10%; 
+    transform: translateY(-30%);
+}
+.input-box input {
+   
+    background-color: rgb(220, 214, 214);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  }
