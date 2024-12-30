@@ -51,7 +51,7 @@ li{padding: 10px;
     justify-content: space-between;
     gap: 10px; 
     top: 50%; 
-    left: 40%; 
+    left: 30%; 
     transform: translateY(-50%);
 }
 .input-box input {
@@ -78,9 +78,9 @@ li{padding: 10px;
     font-size: 28px;
     font-weight: 500;
 }
-.btn{
-    margin-top: 200px;
-    margin-left: -400px;
+.btn{background-color: none;
+    margin-top: 300px;
+    margin-left: -300px;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid rgb(14, 13, 13);
@@ -128,3 +128,69 @@ top: 170%;
 h4{
     margin-top: 30px;
 }
+
+  .container-offer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .section-offer {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .offer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .zelle {
+    background: linear-gradient(45deg, #ffe4b5, #ffcc33);
+  }
+  
+  .paypal {
+    background: linear-gradient(45deg, #b5dff5, #3399ff);
+  }
+  
+  .wire {
+    background: linear-gradient(45deg, #ccffcc, #33cc33);
+  }
+  
+  .details-offer p {display: inline;
+   
+    font-size: 12px;
+  }
+  
+  .offer-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .offer-btn:hover {
+    background-color: #444;
+  }
+  
