@@ -103,10 +103,28 @@ li{padding: 10px;
     position: absolute;
     top: 150%;
     left: 35%;
-    font-weight: 5000;
+    font-weight: 500;
     font-size: 30px;
 }
 .buy-img{
 position: absolute;
 top: 170%;
+}
+.feature-h2{margin-top: 30px;
+    padding: 20px;
+    font-weight: 500;
+
+}
+.feature-container{margin-top: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.feature-para{
+    margin-top: 10px;
+    color: #8e8888;
+}
+h4{
+    margin-top: 30px;
 }
